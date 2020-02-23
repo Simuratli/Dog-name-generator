@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <div class="box" id="head">
+        <h1 class="head">Find your dog</h1>
+    </div>
+    <hr>
+    <form action="/" method="POST">
+        <div class="box">
+            <h1>
+                <%= name %>
+            </h1>
+        </div>
+        <div class="box">
+            <label for="Male">Male
+                <input type="checkbox" value="male" name="male" id="">
+            </label>
+            <label for="Female">Female
+                <input type="checkbox" value="female" name="female" id="">
+            </label>
+            <br>
+            <br>
+            <button type="submit" name="search">Find</button>
+        </div>
+    </form>
+    <div class="footer">
+        <h4>&copy; Simuratli </h4>
+    </div>
+</body>
+
+</html>

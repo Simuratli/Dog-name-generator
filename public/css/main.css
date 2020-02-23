@@ -1,0 +1,63 @@
+html,
+body {
+  background-color: #e2edf8;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+html .box,
+body .box {
+  margin: 50px auto;
+  max-width: 300px;
+  border: 2px solid #88bef5;
+  padding: 2px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+html #head,
+body #head {
+  max-width: 400px;
+  background-color: #88bef5 !important;
+}
+
+html button,
+body button {
+  width: 150px;
+  background-color: #88bef5;
+  padding: 10px;
+  color: #151515;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 5px;
+}
+
+html label,
+body label {
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+html input[type="checkbox"],
+body input[type="checkbox"] {
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 5px;
+  border-radius: 50% !important;
+}
+
+html input[type="checkbox"]:checked,
+body input[type="checkbox"]:checked {
+  background-color: #88bef5;
+}
+
+.footer {
+  margin: 10px auto;
+  width: 100px;
+  position: -webkit-sticky;
+  position: sticky;
+}
+/*# sourceMappingURL=main.css.map */
